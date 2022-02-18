@@ -19,9 +19,9 @@ BleGamepad *bleGamepad;
 #define MAXBUTTON 13
 
 const int buttonPins[]  = {
-                            /*BUTTONS*/   13,14,15,16,17,18,19,21
-                            /*SWITCHES*/  ,26,27,32,33
-                            /*JOYBUTTON*/ ,25
+                            /*BUTTONS*/   23,22,21,19,18,5,7,16
+                            /*SWITCHES*/  ,4,2,15,33
+                            /*JOYBUTTON*/ ,32
                             }; //!< defenition of the physical gpio buttonpins that are used 
 
 int buttonPreviousValue[MAXBUTTON]; //!< internal use to detect edges
