@@ -10,7 +10,7 @@
 - [Table of contents](#table-of-contents)
   - [Description/Beschreibung](#descriptionbeschreibung)
   - [Hardware](#hardware)
-- [3DFiles](#3dfiles)
+  - [3DFiles](#3dfiles)
   - [Software](#software)
 - [Environment](#environment)
   - [Howto Build the Project](#howto-build-the-project)
@@ -25,9 +25,9 @@
 * Buttons (sorry for link into a shop, isnt an afiliate link) like https://www.pollin.de/p/drucktaster-rot-oe-17-5mm-36v-1a-1-polig-schliesser-loetanschluss-421052 This buttons have a good haptic when pressing, remembers a bit to a cherry keyboard.
 * JOY-IT Joystick Module
 
-# 3DFiles
+## 3DFiles
 
-Take a look into [a relative link](case/Readme.md)
+Take a look into [Readme3d](case/README.md)
 
 ## Software
 
