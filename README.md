@@ -6,10 +6,11 @@
 
 # Table of contents
 
-- [hotasx-linkmod](#hotasx-linkmod)
+- [hotasx-linkmod !ESPBuildBadge](#hotasx-linkmod-)
 - [Table of contents](#table-of-contents)
   - [Description/Beschreibung](#descriptionbeschreibung)
   - [Hardware](#hardware)
+- [3DFiles](#3dfiles)
   - [Software](#software)
 - [Environment](#environment)
   - [Howto Build the Project](#howto-build-the-project)
@@ -23,6 +24,10 @@
 * Switches MTS-213-A1 -> This switches have one direction switched, the other direction is like a button. This would help if the switch isnt synced with the game anymore.
 * Buttons (sorry for link into a shop, isnt an afiliate link) like https://www.pollin.de/p/drucktaster-rot-oe-17-5mm-36v-1a-1-polig-schliesser-loetanschluss-421052 This buttons have a good haptic when pressing, remembers a bit to a cherry keyboard.
 * JOY-IT Joystick Module
+
+# 3DFiles
+
+Take a look into [a relative link](case/Readme.md)
 
 ## Software
 
