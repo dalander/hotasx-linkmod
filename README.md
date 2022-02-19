@@ -22,8 +22,9 @@ This project is an extension to the Thrustmaster HotasX Joystick. As this joysti
 It contains the Freecad files for the case, as well as the STL files. Feel free to mod it to your belongings. Would appreciate, if you change something, to send an info to me what and how. Since there are many ideas about the top cover design, I could merge them into this repository, link to your repo or maye we can make a branch here for the mod mod.
 
 Some pictures to give an idea
-<img src="https://github.com/dalander/hotasx-linkmod/blob/develop/linkmod-case-1.png" alt="HotasX-Linkmod-Case1" width="80"/>
-<img src="https://github.com/dalander/hotasx-linkmod/blob/develop/linkmod-case-2.png" alt="HotasX-Linkmod-Case2" width="80"/>
+
+<img src="https://github.com/dalander/hotasx-linkmod/blob/develop/linkmod-case-1.png" alt="HotasX-Linkmod-Case1" width="180"/>
+<img src="https://github.com/dalander/hotasx-linkmod/blob/develop/linkmod-case-2.png" alt="HotasX-Linkmod-Case2" width="180"/>
 
 ## Hardware
 
