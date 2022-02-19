@@ -2,19 +2,29 @@
 
 # hotasx-linkmod ![ESPBuildBadge](https://github.com/dalander/hotasx-linkmod/actions/workflows/build.yml/badge.svg)
 
-
-
 # Table of contents
 
-- [hotasx-linkmod](#hotasx-linkmod)
+- [hotasx-linkmod !ESPBuildBadge](#hotasx-linkmod-)
 - [Table of contents](#table-of-contents)
   - [Description/Beschreibung](#descriptionbeschreibung)
+  - [What is it](#what-is-it)
   - [Hardware](#hardware)
+    - [3DFiles](#3dfiles)
   - [Software](#software)
 - [Environment](#environment)
   - [Howto Build the Project](#howto-build-the-project)
 
 ## Description/Beschreibung
+
+## What is it
+
+This project is an extension to the Thrustmaster HotasX Joystick. As this joystick can connect the thrust module to the joystick everyone has as first the idea to build a link in between. There are allready some projects on thingiverse, but as I wanted to learn a bit, this project started. 
+It contains the Freecad files for the case, as well as the STL files. Feel free to mod it to your belongings. Would appreciate, if you change something, to send an info to me what and how. Since there are many ideas about the top cover design, I could merge them into this repository, link to your repo or maye we can make a branch here for the mod mod.
+
+Some pictures to give an idea
+
+<img src="https://github.com/dalander/hotasx-linkmod/blob/develop/linkmod-case-1.png" alt="HotasX-Linkmod-Case1" width="180"/>
+<img src="https://github.com/dalander/hotasx-linkmod/blob/develop/linkmod-case-2.png" alt="HotasX-Linkmod-Case2" width="180"/>
 
 ## Hardware
 
@@ -23,6 +33,11 @@
 * Switches MTS-213-A1 -> This switches have one direction switched, the other direction is like a button. This would help if the switch isnt synced with the game anymore.
 * Buttons (sorry for link into a shop, isnt an afiliate link) like https://www.pollin.de/p/drucktaster-rot-oe-17-5mm-36v-1a-1-polig-schliesser-loetanschluss-421052 This buttons have a good haptic when pressing, remembers a bit to a cherry keyboard.
 * JOY-IT Joystick Module
+* and of course, as you whish to attach, the Hotas X itself.
+
+### 3DFiles
+
+Take a look into [Readme3d](case/README.md
 
 ## Software
 
@@ -32,7 +47,6 @@ PlatformIO supports the Arduino Framework which makes it more easy to access all
 * https://code.visualstudio.com/
 * https://platformio.org/
   
- 
 # Environment 
 
 Please use https://platformio.org/ or https://docs.platformio.org/en/latest/projectconf/index.html for detailed descriptions. For this project so far just the info, that it will have multiple environments configured, depending for developer and connection. In platformio.ini the root section [env] configures all default parts of environments. In the sections like [env:hugin] the specialized settings are configured. This makes it more easy to switch between different serial ports, but change common parts in [env].
@@ -55,3 +69,4 @@ Right from the GIT symbols the Platform IO Icons are shown.
 * Connector Plug: Show ESP Serial Monitor interface
 * Square: Open Terminal (less used)
 * Folder Symbol with env:environmentname: Select active environment (upload via COMx ... )
+
