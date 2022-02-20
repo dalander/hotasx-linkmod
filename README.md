@@ -40,8 +40,7 @@ Take a look into [Readme3d](case/README.md)
 
 ### Wiring
 
-![Alt text](./doc/connections.svg)
-<img src="./doc/connections.svg" width="100">
+<img src="./doc/connections.svg" width="400">
 
 
 ## Software
