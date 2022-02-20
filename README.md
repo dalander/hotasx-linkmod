@@ -1,4 +1,4 @@
-<img src="https://github.com/dalander/hotasx-linkmod/blob/main/logo.png" alt="HotasX-Linkmod" width="80"/>
+<img src="https://github.com/dalander/hotasx-linkmod/blob/main/doc/logo.png" alt="HotasX-Linkmod" width="80"/>
 
 # hotasx-linkmod ![ESPBuildBadge](https://github.com/dalander/hotasx-linkmod/actions/workflows/build.yml/badge.svg)
 
@@ -12,7 +12,6 @@
     - [3DFiles](#3dfiles)
   - [Software](#software)
 - [Environment](#environment)
-  - [Howto Build the Project](#howto-build-the-project)
 
 ## Description/Beschreibung
 
@@ -22,9 +21,8 @@ This project is an extension to the Thrustmaster HotasX Joystick. As this joysti
 It contains the Freecad files for the case, as well as the STL files. Feel free to mod it to your belongings. Would appreciate, if you change something, to send an info to me what and how. Since there are many ideas about the top cover design, I could merge them into this repository, link to your repo or maye we can make a branch here for the mod mod.
 
 Some pictures to give an idea
-
-<img src="https://github.com/dalander/hotasx-linkmod/blob/develop/linkmod-case-1.png" alt="HotasX-Linkmod-Case1" width="180"/>
-<img src="https://github.com/dalander/hotasx-linkmod/blob/develop/linkmod-case-2.png" alt="HotasX-Linkmod-Case2" width="180"/>
+<img src="https://github.com/dalander/hotasx-linkmod/blob/develop/doc/linkmod-case-1.png" alt="HotasX-Linkmod-Case1" width="80"/>
+<img src="https://github.com/dalander/hotasx-linkmod/blob/develop/doc/linkmod-case-2.png" alt="HotasX-Linkmod-Case2" width="80"/>
 
 ## Hardware
 
@@ -51,22 +49,4 @@ PlatformIO supports the Arduino Framework which makes it more easy to access all
 
 Please use https://platformio.org/ or https://docs.platformio.org/en/latest/projectconf/index.html for detailed descriptions. For this project so far just the info, that it will have multiple environments configured, depending for developer and connection. In platformio.ini the root section [env] configures all default parts of environments. In the sections like [env:hugin] the specialized settings are configured. This makes it more easy to switch between different serial ports, but change common parts in [env].
 
-## Howto Build the Project
-
-After cloning the repository you can open the platformio-project folder as a project:
-
-![PIO Open Project](./pio-openproject.png)
-![PIO Choose Folder](./pio-choosefolder.png)
-
-Once the project opened one way to use Platform IO environment is using the taskbar:
-![PIO Taskbar](./pio-taskbar.png)
-
-Right from the GIT symbols the Platform IO Icons are shown.
-* House: Go to PlatformIO home (opening projects, search libraries etc)
-* Checkmark: Compile current project using selected Environment 
-* Arrow: Compile current project and upload to ESP using selected Environment  
-* Trashcan: Clean current Project
-* Connector Plug: Show ESP Serial Monitor interface
-* Square: Open Terminal (less used)
-* Folder Symbol with env:environmentname: Select active environment (upload via COMx ... )
-
+[Some hints how to build are here](doc/Build.md)
