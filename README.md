@@ -42,7 +42,6 @@ Take a look into [Readme3d](case/README.md)
 
 <img src="./doc/connections.svg" width="400">
 
-
 ## Software
 
 Using VSCode with installed Platform IO Extension for development.
