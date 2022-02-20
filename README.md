@@ -10,6 +10,7 @@
   - [What is it](#what-is-it)
   - [Hardware](#hardware)
     - [3DFiles](#3dfiles)
+    - [Wiring](#wiring)
   - [Software](#software)
 - [Environment](#environment)
 
@@ -36,6 +37,12 @@ Some pictures to give an idea
 ### 3DFiles
 
 Take a look into [Readme3d](case/README.md)
+
+### Wiring
+
+![Alt text](./doc/connections.svg)
+<img src="./doc/connections.svg" width="100">
+
 
 ## Software
 
