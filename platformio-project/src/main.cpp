@@ -1,6 +1,18 @@
 /*
  * main.cpp
- *
+ * This is a Hotas X Linkmod firmware. 
+ * Planned Features are 
+ *  8 BUttons
+ *  4 Switches 
+ *  minijoystick with separate pushbutton
+ * 
+ * I tried to keep this file simple as possible, straight forward. There is no goal to write a 
+ * new library or to make it better than another one.
+ * There are 3 goals: 
+ *  get my linkmod running
+ *  share it as template or inspiration for other, who are not able to code in complex classes
+ *  Have fun with it...
+ *  
  *  Created on: Februar 2022
  *      Author: Frank Weichert
  */
@@ -11,7 +23,7 @@
 #include <EEPROM.h>
 
 //Remove // to activate debugging mode 
-#define DEBUG
+//#define DEBUG
 
 BleGamepad *bleGamepad;
 ///  \def DEADZONE defines the range where joystick does not react
@@ -93,10 +105,12 @@ void setup() {
   joyWorkData.xMid = analogRead(xAxisPin);
   joyWorkData.yMid = analogRead(yAxisPin);
 
+  // If started with full tilted Joystick we take it as a re init whish
   if (joyWorkData.xMid == 0 || joyWorkData.yMid==0){
     clearNVRAM();
   }
   
+  // Read calibration DAta from NVRam
   readNVRAM();
 
   // thanks lemmingdev for this library
@@ -128,9 +142,9 @@ void loop() {
 
 
   if(bleGamepad->isConnected()) {
+    // Detect all Button States 
     for (int buttonIndex=0;buttonIndex<MAXBUTTON;buttonIndex++){
       int currentEdge = detectEdge(buttonIndex);
-     // Serial.printf("CurrentEdge = %3d\n",currentEdge);
       switch (currentEdge){
           case -1:
           bleGamepad->release(buttonMap[buttonIndex]);
@@ -157,6 +171,7 @@ void loop() {
       Serial.printf("PIN %3d has value %3d->Mapped(%d)\n\n" ,yAxisPin,joyyAxisValue, yAxisValue);
     #endif
 
+    // Swap axis directrions if needed
     if (SWAP_X_AXIS == 1){
       xAxisValue *=-1;
     }
@@ -164,6 +179,7 @@ void loop() {
     if (SWAP_Y_AXIS == 1){
       yAxisValue *=-1;
     }
+
     // Only send if something has been changed. Maybe it saves a bit transmission.
     if ((xAxisValue != xAxisPreviousValue) || yAxisValue != yAxisPreviousValue) { 
       bleGamepad->setAxes(xAxisValue,yAxisValue,0, 0,0, 0,0, 0, DPAD_CENTERED);

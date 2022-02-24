@@ -36,7 +36,7 @@ Some pictures to give an idea
 
 ### 3DFiles
 
-Take a look into [Readme3d](case/README.md)
+Take a look into [Freecad and STL Folders for the case files](case)
 
 ### Wiring
 
