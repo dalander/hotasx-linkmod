@@ -25,13 +25,13 @@ Some pictures to give an idea
 <img src="./doc/linkmod-case-1.png" alt="HotasX-Linkmod-Case1" width="150"/>
 <img src="./doc/linkmod-case-2.png" alt="HotasX-Linkmod-Case2" width="150"/>
 
-<img src="./doc/case/images/linkmod-connected.jpg" alt="HotasX-Linkmod-Case3" width="150"/>
+<img src="./case/images/linkmod-connected.jpg" alt="HotasX-Linkmod-Case3" width="150"/>
 
-<img src="./doc/case/images/linkmod-nearconnect.jpg" alt="HotasX-Linkmod-Case5" width="150"/>
+<img src="./case/images/linkmod-nearconnect.jpg" alt="HotasX-Linkmod-Case5" width="150"/>
 
-<img src="./doc/case/images/linkmod-inner.jpg" alt="HotasX-Linkmod-Case4" width="150"/>
+<img src="./case/images/linkmod-inner.jpg" alt="HotasX-Linkmod-Case4" width="150"/>
 
-<img src="./doc/case/images/linkmod-extra.jpg" alt="HotasX-Linkmod-Case6" width="150"/>
+<img src="./case/images/linkmod-extra.jpg" alt="HotasX-Linkmod-Case6" width="150"/>
 
 ## Hardware
 
