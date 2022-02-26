@@ -8,6 +8,7 @@
 - [Table of contents](#table-of-contents)
   - [Description/Beschreibung](#descriptionbeschreibung)
   - [What is it](#what-is-it)
+    - [Features](#features)
   - [Hardware](#hardware)
     - [3DFiles](#3dfiles)
     - [Wiring](#wiring)
@@ -20,6 +21,17 @@
 
 This project is an extension to the Thrustmaster HotasX Joystick. As this joystick can connect the thrust module to the joystick everyone has as first the idea to build a link in between. There are allready some projects on thingiverse, but as I wanted to learn a bit, this project started. 
 It contains the Freecad files for the case, as well as the STL files. Feel free to mod it to your belongings. Would appreciate, if you change something, to send an info to me what and how. Since there are many ideas about the top cover design, I could merge them into this repository, link to your repo or maye we can make a branch here for the mod mod.
+
+### Features
+
+* Connectable without skrews
+* Open and close wihtout skrews (clippable)
+* place for small powerbank
+* hole for external powerbank or direct usb connection
+* Bluetooth gamepad HID device
+* 2 axis Joystick
+* 8 Button
+* 4 Switches (layout is button / off / switch)
 
 Some pictures to give an idea
 <img src="./doc/linkmod-case-1.png" alt="HotasX-Linkmod-Case1" width="150"/>
