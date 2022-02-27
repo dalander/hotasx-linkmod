@@ -37,4 +37,5 @@ platformio-project/.vscode/c_cpp_properties.json
 platformio-project/.vscode/launch.json
 platformio-project/.vscode/ipch
 dox/doc/
+**/*.FCStd1
 
