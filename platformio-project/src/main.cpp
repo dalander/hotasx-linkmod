@@ -24,6 +24,7 @@
 
 //Remove // to activate debugging mode 
 //#define DEBUG
+//#define DEBUG2
 
 BleGamepad *bleGamepad;
 ///  \def DEADZONE defines the range where joystick does not react
@@ -99,9 +100,9 @@ void setup() {
 
   // Init Buttonpullups
   for (int buttonIndex=0;buttonIndex<MAXBUTTON;buttonIndex++){
-      pinMode(buttonPins[buttonIndex],INPUT);
+      pinMode(buttonPins[buttonIndex],INPUT_PULLUP);
   }
-  
+
   joyWorkData.xMid = analogRead(xAxisPin);
   joyWorkData.yMid = analogRead(yAxisPin);
 
@@ -202,7 +203,10 @@ int16_t respectDeadZone(int16_t value){
 }
 
 int detectEdge(int buttonIndex){
-  int currentValue = digitalRead(buttonPins[buttonIndex]);
+  int currentValue = digitalRead(buttonPins[buttonIndex]);  
+  // Shift input for pullup
+  currentValue = currentValue==1 ? 0 : 1;
+
   #ifdef DEBUG2
     Serial.printf("PIN=%3d: Index=%3d  with prev=%3d , now=%3d   \n",buttonPins[buttonIndex] ,buttonIndex ,buttonPreviousValue[buttonIndex],currentValue);
   #endif

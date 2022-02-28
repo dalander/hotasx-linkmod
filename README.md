@@ -22,6 +22,8 @@
 This project is an extension to the Thrustmaster HotasX Joystick. As this joystick can connect the thrust module to the joystick everyone has as first the idea to build a link in between. There are allready some projects on thingiverse, but as I wanted to learn a bit, this project started. 
 It contains the Freecad files for the case, as well as the STL files. Feel free to mod it to your belongings. Would appreciate, if you change something, to send an info to me what and how. Since there are many ideas about the top cover design, I could merge them into this repository, link to your repo or maye we can make a branch here for the mod mod.
 
+Update: The linkmod is in use with elite dangerous and working as expected! Yes, I finished a project, such a good feeling.
+
 ### Features
 
 * Connectable without skrews
