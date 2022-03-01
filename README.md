@@ -26,8 +26,8 @@ Update: The linkmod is in use with elite dangerous and working as expected! Yes,
 
 ### Features
 
-* Connectable without skrews
-* Open and close wihtout skrews (clippable)
+* Connectable without screws
+* Open and close wihtout screws (clippable)
 * place for small powerbank
 * hole for external powerbank or direct usb connection
 * Bluetooth gamepad HID device
