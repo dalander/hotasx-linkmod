@@ -24,8 +24,8 @@ It contains the Freecad files for the case, as well as the STL files. Feel free 
 
 ### Features
 
-* Connectable without skrews
-* Open and close wihtout skrews (clippable)
+* Connectable without screws
+* Open and close wihtout screws (clippable)
 * place for small powerbank
 * hole for external powerbank or direct usb connection
 * Bluetooth gamepad HID device
